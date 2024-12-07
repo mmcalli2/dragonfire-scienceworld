@@ -7,6 +7,18 @@ The DragonFire AI project makes use of multiple existing codebases and datasets.
 
 - CALM-ScienceWorld repository (https://github.com/cognitiveailab/calm-scienceworld) - Contains Python code for training an intelligent agent to solve ScienceWorld tasks using OpenAI GPT-2.  Instructions for training this agent are found in the dedicated README for the CALM-ScienceWorld repository.  Note that the hardware requirements for training the models are significant, so training may take significantly longer on average compute platforms.
 
+- Hugginface Transformers (https://github.com/huggingface/transformers) - Leverages the Transformers libraries and scripts for training and inference of the RoBERTA and BERT models.
+- 
+- Intent Detection with Wikihow (https://github.com/zharry29/wikihow-intent) is the original inspiration for this project which is to determine an action to take based on a task and environment observations. 
+- @misc{zhang2020intent,
+    title={Intent Detection with WikiHow},
+    author={Li Zhang and Qing Lyu and Chris Callison-Burch},
+    year={2020},
+    eprint={2009.05781},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+
 - DragonFire Google Drive (https://drive.google.com/drive/folders/1EteF1cjATzAdFOUvCkIhObi_1JEJguWd?usp=sharing) - Contains Llama3.1 model and limited GPT-2 model trained on ScienceWorld tasks.  Also includes supporting infrastructure and logs for runs of these models.
 
 # Additional code files
