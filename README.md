@@ -56,7 +56,7 @@ To reduce compute for Llama-3.1-8b-Instruct model, we leveraged the NVIDIA NeMo 
 ~mkdir nvdata
 cd nvdata 
 
-Because of the size of the data and model files, we have placed the project at https://drive.google.com/drive/folders/17s6qX-p0Js-V97sjHus2YpNrl4CPUMRx?usp=sharing.  We recommend you download as a zip and upload into the nvdata folder. 
+Because of the size of the data and model files, we have placed the project at https://drive.google.com/drive/folders/17s6qX-p0Js-V97sjHus2YpNrl4CPUMRx?usp=sharing.  We recommend you download as a zip and upload into the nvdata folder. Contains Llama3.1 model and limited GPT-2 model trained on ScienceWorld tasks. Also includes supporting infrastructure, utilitiy scripts, and logs for runs of these models.
 
 Then unzip the folder inside nvdata with the following command:
 unzip DragonFire_Phase2_Code.zip
