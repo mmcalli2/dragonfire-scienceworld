@@ -90,13 +90,13 @@ Navigate to a browser http://<ip or localhost>:8888/lab to view and run the code
 The needed data files are in the data folder.  
 
 #### Notebook files
-The following notebooks are the ones available to train and evaluate the models:
-Llama3.1-8b-Instruct: df_llama3-lora-nemofw.ipynp
-RoBERTA: df_roberta_multiple_choice.ipynb
-GPT2: basemodelGPT2_training.ipynb
-
-Optional GPT4o (note, expensive to train): df_gpt4o-df-finetune.ipynb
-- DragonFire Google Drive (https://drive.google.com/drive/folders/1EteF1cjATzAdFOUvCkIhObi_1JEJguWd?usp=sharing) - Contains Llama3.1 model and limited GPT-2 model trained on ScienceWorld tasks.  Also includes supporting infrastructure and logs for runs of these models.
+The following notebooks are the ones available to train and evaluate the models:  
+- Llama3.1-8b-Instruct: df_llama3-lora-nemofw.ipynp
+- RoBERTA: df_roberta_multiple_choice.ipynb
+- GPT2: basemodelGPT2_training.ipynb
+- Optional GPT4o (note, expensive to train): df_gpt4o-df-finetune.ipynb
+- 
+- DragonFire Google Drive (https://drive.google.com/drive/folders/1EteF1cjATzAdFOUvCkIhObi_1JEJguWd?usp=sharing) - Contains Llama3.1 model and limited GPT-2 model trained on ScienceWorld tasks.  Also includes supporting infrastructure and logs for runs of these models.  
 
 # Additional code files
 ## subgoal-agent/main.py
